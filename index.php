@@ -23,41 +23,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="row justify-content-center mb-5">
-				<div class="col-md-10">
-					<div class="lead">
-						<img src="<?php bloginfo('template_url'); ?>/img/forseo2.png" alt="" class="width100">
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center mb-5">
-				<div class="col-md-12">
-					<div class="lead">
-						Еще что-то
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center mb-5">
-				<div class="col-md-10">
-					<div class="lead">
-						<img src="<?php bloginfo('template_url'); ?>/img/forseo.png" alt="" class="width100">
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center mb-5">
-				<div class="col-md-12">
-					<div class="lead">
-						Еще что-то2
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-md-10">
-					<div class="lead">
-						<img src="<?php bloginfo('template_url'); ?>/img/forseo1.png" alt="" class="width100">
-					</div>
-				</div>
-			</div>
 			<div class="row py-5">
 				<div class="col-md-12">
 					<hr style="background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHZpZXdCb3g9IjAgMCAxMTkgNiI%2BPHBhdGggZD0iTTExOSAzLjhjLTYwIDIuNS0zMy41LTctMTE5IDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNjYjM3MCIgc3Ryb2tlLXdpZHRoPSIyIi8%2BPC9zdmc%2B) center/5em 100% repeat-x; height: 0.3em; margin: 3em 0; border: 0;">
@@ -74,6 +39,18 @@
 					<div class="seo__description lead">
 						После того, как мы приступили к работе и внесли первые изменения на сайт, Вы увидете, как поменялось поведение пользователей. Они стали дольше времени проводить на сайте, стали больше просматривать страниц. Показатель отказов (который влияет на то, как сайт ранжируется в поисковой выдачи) улучшится! 
 						<br><br><span class="highlight">Уже в конце первого месяца совместной работы пользователи смогут находить Вас по низкочастотным запросам </span> 👍 
+					</div>
+				</div>
+			</div>
+			<div class="row py-5">
+				<div class="col-md-12">
+					<hr style="background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHZpZXdCb3g9IjAgMCAxMTkgNiI%2BPHBhdGggZD0iTTExOSAzLjhjLTYwIDIuNS0zMy41LTctMTE5IDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNjYjM3MCIgc3Ryb2tlLXdpZHRoPSIyIi8%2BPC9zdmc%2B) center/5em 100% repeat-x; height: 0.3em; margin: 3em 0; border: 0;">
+				</div>
+			</div>
+			<div class="row justify-content-center mb-5">
+				<div class="col-md-10">
+					<div class="lead">
+						<img src="<?php bloginfo('template_url'); ?>/img/forseo1.png" alt="" class="width100">
 					</div>
 				</div>
 			</div>
@@ -103,6 +80,18 @@
 					<hr style="background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHZpZXdCb3g9IjAgMCAxMTkgNiI%2BPHBhdGggZD0iTTExOSAzLjhjLTYwIDIuNS0zMy41LTctMTE5IDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNjYjM3MCIgc3Ryb2tlLXdpZHRoPSIyIi8%2BPC9zdmc%2B) center/5em 100% repeat-x; height: 0.3em; margin: 3em 0; border: 0;">
 				</div>
 			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-10">
+					<div class="lead">
+						<img src="<?php bloginfo('template_url'); ?>/img/forseo2.png" alt="" class="width100">
+					</div>
+				</div>
+			</div>
+			<div class="row py-5">
+				<div class="col-md-12">
+					<hr style="background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHZpZXdCb3g9IjAgMCAxMTkgNiI%2BPHBhdGggZD0iTTExOSAzLjhjLTYwIDIuNS0zMy41LTctMTE5IDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNjYjM3MCIgc3Ryb2tlLXdpZHRoPSIyIi8%2BPC9zdmc%2B) center/5em 100% repeat-x; height: 0.3em; margin: 3em 0; border: 0;">
+				</div>
+			</div>
 			<div class="row align-items-center justify-content-center">
 				<div class="col-md-6 text-center">
 					<img src="<?php bloginfo('template_url'); ?>/img/seo6.png" alt="">
@@ -113,6 +102,18 @@
 					</div>
 					<div class="seo__description lead">
 						У нас нет универсального рецепта. Каждая ниша индивидуальна. Поэтому мы проводим тщательный аудит, после которого, зная сильные и слабые стороны сайта, составляем стратегию продвижения 📈
+					</div>
+				</div>
+			</div>
+			<div class="row py-5">
+				<div class="col-md-12">
+					<hr style="background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHZpZXdCb3g9IjAgMCAxMTkgNiI%2BPHBhdGggZD0iTTExOSAzLjhjLTYwIDIuNS0zMy41LTctMTE5IDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNjYjM3MCIgc3Ryb2tlLXdpZHRoPSIyIi8%2BPC9zdmc%2B) center/5em 100% repeat-x; height: 0.3em; margin: 3em 0; border: 0;">
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-10">
+					<div class="lead">
+						<img src="<?php bloginfo('template_url'); ?>/img/forseo.png" alt="" class="width100">
 					</div>
 				</div>
 			</div>
