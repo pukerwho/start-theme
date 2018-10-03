@@ -2,15 +2,65 @@
 
 <div class="tpl_seo">
 	<div style="background: url(<?php bloginfo('template_url'); ?>/img/bg-bottom.svg) center bottom/105% no-repeat;">
-		<?php get_template_part( 'blocks/page-top', 'default' ); ?>
+		<div class="container py-5">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="text-center font-gagalin">SEO-продвижение</h1>
+					<div class="text-center maingreen mb-4">		
+						<svg viewBox="0 0 67 17" preserveAspectRatio="none" focusable="false" class="_zdxht7" style="height: 15px;"><path fill="currentColor" d="M66.422 3.471c-3.874-1.387-8.03-1.944-12.153-2.313A286.65 286.65 0 0 0 41.283.312 299.882 299.882 0 0 0 15.42.315C10.544.522 5.675.837.82 1.25c-.767.065-.494 1.049.256.984C18.04.767 35.242.832 52.276 2.214c4.267.347 8.548.796 12.613 2.06-.714.38-1.659.45-2.49.508-1.681.118-3.368.193-5.054.254-3.323.118-6.651.157-9.979.175-6.586.036-13.177-.005-19.75.308-3.727.177-7.443.477-11.126.965-.512.068-.866.607-.584 1.02.507.741 1.333 1.13 2.273 1.33 1.17.25 2.375.404 3.563.562 2.625.349 5.264.583 7.9.853 4.758.487 9.528 1.124 14.026 2.68 2.43.842 4.631 2.024 6.759 3.348.606.377 1.446-.345.887-.838-3.091-2.724-7.517-4.264-11.687-5.201-4.773-1.073-9.682-1.428-14.55-1.935a119.4 119.4 0 0 1-4.363-.52c-.452-.064-.908-.125-1.36-.199 12.723-1.453 25.652-.78 38.463-1.334 1.827-.08 3.675-.133 5.489-.325 1.347-.142 2.72-.5 3.496-1.527.267-.355.053-.772-.38-.927"></path></svg>
+					</div>
+					<div class="lead text-center">Продвинем Ваш сайт в поисковых системах</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="seo bg-white">
 		<div class="container py-5">
-			<div class="row mb-5">
+			<div class="row justify-content-center mb-5">
 				<div class="col-md-12">
 					<div class="lead">
-						Вступительное слово	
+						Вступительное слово
 					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center mb-5">
+				<div class="col-md-10">
+					<div class="lead">
+						<img src="<?php bloginfo('template_url'); ?>/img/forseo2.png" alt="" class="width100">
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center mb-5">
+				<div class="col-md-12">
+					<div class="lead">
+						Еще что-то
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center mb-5">
+				<div class="col-md-10">
+					<div class="lead">
+						<img src="<?php bloginfo('template_url'); ?>/img/forseo.png" alt="" class="width100">
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center mb-5">
+				<div class="col-md-12">
+					<div class="lead">
+						Еще что-то2
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-10">
+					<div class="lead">
+						<img src="<?php bloginfo('template_url'); ?>/img/forseo1.png" alt="" class="width100">
+					</div>
+				</div>
+			</div>
+			<div class="row py-5">
+				<div class="col-md-12">
+					<hr style="background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHZpZXdCb3g9IjAgMCAxMTkgNiI%2BPHBhdGggZD0iTTExOSAzLjhjLTYwIDIuNS0zMy41LTctMTE5IDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNjYjM3MCIgc3Ryb2tlLXdpZHRoPSIyIi8%2BPC9zdmc%2B) center/5em 100% repeat-x; height: 0.3em; margin: 3em 0; border: 0;">
 				</div>
 			</div>
 			<div class="row align-items-center justify-content-center">
@@ -120,7 +170,7 @@
 						<div class="mb-4">Кейсы по теме:</div>
 						<div class="mb-4">
 							<?php 
-						    $custom_query = new WP_Query( array( 'post_type' => 'cases', 'posts_per_page' => 5 ) );
+						    $custom_query = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 5 ) );
 						    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 						  	<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 						  <?php endwhile; endif; ?>

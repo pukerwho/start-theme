@@ -8957,6 +8957,9 @@ body {
 .maingreen {
   color: #52ae4a; }
 
+.font-gagalin {
+  font-family: 'Gagalin'; }
+
 ul {
   margin: 0 !important;
   padding: 0 !important; }
@@ -9054,7 +9057,6 @@ a.navbar-brand {
   font-family: 'Gagalin';
   color: rgba(0, 0, 0, 0.85);
   font-size: 2.5rem;
-  font-weight: 700;
   line-height: 3rem;
   letter-spacing: 3px;
   text-transform: uppercase; }
