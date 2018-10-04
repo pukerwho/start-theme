@@ -193,6 +193,11 @@
 					<img src="<?php bloginfo('template_url'); ?>/img/seo-idea.png" alt="" class="width100">
 				</div>
 			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-10">
+					<?php echo do_shortcode('[contact-form-7 id="21" title="Заявка"]'); ?>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
