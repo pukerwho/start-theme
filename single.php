@@ -33,7 +33,7 @@
 		</div>
 		<div class="row justify-content-center">
 			<div class="col-md-10">
-				<div class="lead">Готовы начать? Есть вопросы? Напишите нам!</div>
+				<div class="lead mb-5">Готовы начать? Есть вопросы? Напишите нам!</div>
 				<?php echo do_shortcode('[contact-form-7 id="21" title="Заявка"]'); ?>
 			</div>
 		</div>

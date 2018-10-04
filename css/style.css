@@ -9019,6 +9019,9 @@ label, input, textarea {
   font-size: 1rem;
   font-weight: 300; }
 
+textarea, input {
+  padding: 15px; }
+
 a.navbar-brand {
   color: #535353; }
 
