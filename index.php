@@ -187,7 +187,6 @@
 						  	<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 						  <?php endwhile; endif; ?>
 					  </div>
-						<a href="/cases"><div class="btn btn-success">Больше кейсов</div></a>
 					</div>
 				</div>
 				<div class="col-md-6 text-center">
