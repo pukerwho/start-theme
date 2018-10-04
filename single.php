@@ -28,6 +28,12 @@
 		</div>
 		<div class="row justify-content-center">
 			<div class="col-md-10">
+				<hr style="background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHZpZXdCb3g9IjAgMCAxMTkgNiI%2BPHBhdGggZD0iTTExOSAzLjhjLTYwIDIuNS0zMy41LTctMTE5IDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNjYjM3MCIgc3Ryb2tlLXdpZHRoPSIyIi8%2BPC9zdmc%2B) center/5em 100% repeat-x; height: 0.3em; margin: 3em 0; border: 0;">
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-10">
+				<div class="lead">Готовы начать? Есть вопросы? Напишите нам!</div>
 				<?php echo do_shortcode('[contact-form-7 id="21" title="Заявка"]'); ?>
 			</div>
 		</div>
