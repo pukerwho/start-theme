@@ -16,7 +16,7 @@
 	</div>
 	<div class="seo bg-white">
 		<div class="container py-5">
-			<div class="row justify-content-center mb-5">
+			<div class="row justify-content-center">
 				<div class="col-md-12">
 					<div class="lead">
 						Для кого-то SEO-продвижение, как магия. Кто-то думает, что seo-специалист выглядит, как шаман с бубном. На самом деле все не так и все намного проще. 
