@@ -9042,8 +9042,8 @@ a.navbar-brand {
   .menu ul a {
     font-size: 17px;
     color: #535353; }
-    .menu ul a:hover {
-      border-bottom: 4px solid #52ae4a; }
+  .menu ul i {
+    font-size: 1.5rem; }
 
 .hpromo {
   height: 65px;
