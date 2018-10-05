@@ -9070,6 +9070,17 @@ a.navbar-brand {
   list-style-type: disc; }
 
 @media (max-width: 576px) {
+  .tpl_seo img {
+    width: 100%; }
+
+  .seo__title {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    text-align: center; }
+
+  .seo__description {
+    text-align: left; }
+
   .pc-show {
     display: none !important; }
 
