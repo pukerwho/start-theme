@@ -9081,6 +9081,9 @@ a.navbar-brand {
   .seo__description {
     text-align: left; }
 
+  .mobile-mb-5 {
+    margin-bottom: 3rem; }
+
   .pc-show {
     display: none !important; }
 

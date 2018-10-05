@@ -35,7 +35,7 @@
 			</div>
 			<div class="row align-items-center justify-content-center">
 				<div class="col-md-6 text-center">
-					<img src="<?php bloginfo('template_url'); ?>/img/seo.png" alt="">
+					<img src="<?php bloginfo('template_url'); ?>/img/seo.png" alt="" class="mobile-mb-5">
 				</div>
 				<div class="col-md-6 text-right">
 					<div class="seo__title text-dark mb-4">
@@ -103,7 +103,7 @@
 			</div>
 			<div class="row align-items-center justify-content-center">
 				<div class="col-md-6 text-center">
-					<img src="<?php bloginfo('template_url'); ?>/img/seo6.png" alt="">
+					<img src="<?php bloginfo('template_url'); ?>/img/seo6.png" alt="" class="mobile-mb-5">
 				</div>
 				<div class="col-md-6 text-right">
 					<div class="seo__title text-dark mb-4">
