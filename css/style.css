@@ -9023,6 +9023,7 @@ textarea, input {
   padding: 15px; }
 
 a.navbar-brand {
+  font-size: 1.1rem;
   color: #535353; }
 
 .navbar {
