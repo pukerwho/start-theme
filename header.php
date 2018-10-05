@@ -48,11 +48,13 @@
                 <div class="toogle-menu"></div>
                 <div class="slide-menu">
                   <div class="menu">
-                    <?php 
-                      wp_nav_menu( array(
-                        'menu'            => 'MainMenu', 
-                      ))
-                    ?>
+                   <ul>
+                      <li class="display-4 font-gagalin">Контакты:</li>
+                      <li><a href="tel:380997713997"> Телефон</a></li>
+                      <li><a href="tg://resolve?domain=web_WeModern">Telegram</a></li>
+                      <li><a href="viber://chat?number=+380997713997">Viber</a></li>
+                      <li><a href="mailto:web.wemodern@gmail.com">Почта</a></li>
+                   </ul>
                   </div>
                 </div>
               </div>
