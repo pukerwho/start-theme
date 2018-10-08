@@ -55,7 +55,8 @@
                       <li><a href="tel:380997713997"> Телефон</a></li>
                       <li><a href="tg://resolve?domain=web_WeModern">Telegram</a></li>
                       <li><a href="viber://chat?number=+380997713997">Viber</a></li>
-                      <li><a href="mailto:web.wemodern@gmail.com">Почта</a></li>
+                      <li class="mb-4"><a href="mailto:web.wemodern@gmail.com">Почта</a></li>
+                      <li><div class="btn btn-light btn-lg" data-toggle="modal" data-target="#seoAuditModal">Заказать аудит</div></li>
                    </ul>
                   </div>
                 </div>
