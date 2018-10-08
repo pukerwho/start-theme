@@ -36,11 +36,13 @@
             <div class="headermenu">
               <div class="pc-show">
                 <div class="menu">
-                  <ul>
+                  <ul class="d-flex align-items-center">
                     <li><a href="tel:380997713997"> +38(099)77-13-997</a></li>
                     <li><a href="tg://resolve?domain=web_WeModern"><i class="fab fa-telegram-plane"></i></a></li>
                     <li><a href="viber://chat?number=+380997713997"><i class="fab fa-viber"></i></a></li>
                     <li><a href="mailto:web.wemodern@gmail.com"><i class="far fa-envelope"></i></a></li>
+                    <li> | </i></a></li>
+                    <li><div class="btn btn-success" data-toggle="modal" data-target="#seoAuditModal">Заказать аудит</div></li>
                   </ul>
                 </div>
               </div>
