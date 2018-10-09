@@ -8996,6 +8996,9 @@ a:hover {
   background-image: -o-linear-gradient(190deg, rgba(250, 247, 133, 0.3), rgba(250, 247, 133, 0.7) 95%, rgba(250, 247, 133, 0.1));
   background-image: linear-gradient(-100deg, rgba(250, 247, 133, 0.3), rgba(250, 247, 133, 0.7) 95%, rgba(250, 247, 133, 0.1)); }
 
+#content {
+  padding-top: 56px; }
+
 .btn a {
   color: #ffffff; }
 
@@ -9021,6 +9024,16 @@ label, input, textarea {
 
 textarea, input {
   padding: 15px; }
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 9; }
+
+.header__fixed {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 3px rgba(100, 100, 100, 0.4);
+  box-shadow: 0 1px 3px rgba(100, 100, 100, 0.4); }
 
 a.navbar-brand {
   font-size: 1.1rem;
