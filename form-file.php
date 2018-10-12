@@ -25,6 +25,11 @@
         <th scope="row">Ссылка на Pinterest</th>
         <td><input type="text" name="pinterest_link" value="<?php echo esc_attr( get_option('pinterest_link') ); ?>" /></td>
         </tr>
+
+        <tr valign="top">
+        <th scope="row">Код Google Analytics</th>
+        <td><input type="text" name="google_analytics" value="<?php echo esc_attr( get_option('google_analytics') ); ?>" /></td>
+        </tr>
     </table>
     
     <?php submit_button(); ?>
