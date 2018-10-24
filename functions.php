@@ -63,6 +63,14 @@ function theme_name_scripts() {
  
     wp_enqueue_script( 'loadmore' );
 };
+
+//подключаем стили к админке
+function load_custom_wp_admin_style() {
+        wp_register_style( 'custom_wp_admin_css', get_template_directory_uri() . '/css/admin-style.css', false, '1.0.0' );
+        wp_enqueue_style( 'custom_wp_admin_css' );
+}
+add_action( 'admin_enqueue_scripts', 'load_custom_wp_admin_style' );
+
 function loadmore_ajax_handler(){
  
     // prepare our arguments for the query
@@ -90,12 +98,14 @@ add_action('wp_ajax_nopriv_loadmore', 'loadmore_ajax_handler');
 
 
 function add_theme_menu_item() {
-    add_menu_page("Мои настройки", "Мои настройки", "manage_options", "theme-panel", "theme_settings_page", null, 99);
+    add_menu_page("Theme Settings", "Theme Settings", "manage_options", "theme-settings", "theme_settings_page", null, 99);
     //register our settings
     register_setting( 'my-settings-group', 'facebook_link' );
     register_setting( 'my-settings-group', 'twitter_link' );
     register_setting( 'my-settings-group', 'google_link' );
     register_setting( 'my-settings-group', 'pinterest_link' );
+    register_setting( 'my-settings-group', 'google_analytics' );
+    register_setting( 'my-settings-group', 'jivosite_code' );
 }
 
 add_action("admin_menu", "add_theme_menu_item");
