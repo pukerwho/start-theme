@@ -12,22 +12,9 @@
   // ENQUEUE your css and js in inc/enqueues.php
 
     wp_head();
-<<<<<<< HEAD
 	?>
   <?php echo get_option('google_analytics'); ?>
-=======
   ?>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127078049-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-127078049-1');
-  </script>
-
->>>>>>> 08bd2cebd4d13c1dd90249f6005f2b03b07bbe7c
 </head>
 <body <?php echo body_class(); ?>>
   <!-- <div class="preloader"></div> -->
