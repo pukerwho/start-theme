@@ -23,10 +23,18 @@ if( !isset( $content_width ) ) {
     // @TODO : edit the value for your own specifications
     $content_width = 960;
 }
-// Register menus, use wp_nav_menu() to display menu to your template ( cf : http://codex.wordpress.org/Function_Reference/wp_nav_menu )
+
+require_once get_template_directory() . '/inc/carbon-fields/carbon-fields-plugin.php';
+require_once get_template_directory() . '/inc/custom-fields/settings-meta.php';
+require_once get_template_directory() . '/inc/custom-fields/apartments-meta.php';
+require_once get_template_directory() . '/inc/custom-fields/pages-meta.php';
+require_once get_template_directory() . '/inc/TGM/example.php';
+
+
 register_nav_menus( array(
-    'main_menu' => __( 'Menu principal', 'minimal-blank-theme' ) //@TODO : change i18n domain name to yours
+    'head_menu' => 'Меню в шапке',
 ) );
+
 // Register sidebars
 function registerThemeSidebars() {
     if( !function_exists( 'register_sidebar' ) ) {
@@ -50,10 +58,12 @@ function addAdminEditorStyle() {
 add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
 function theme_name_scripts() {
     wp_enqueue_style( 'editor-style', get_stylesheet_directory_uri() . '/css/style.css', false, time() );
-    wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
-    wp_register_script( 'loadmore', get_stylesheet_directory_uri() . '/js/loadmore.js', array('jquery') );
- 
-
+    wp_enqueue_style( 'jquery-ui', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css', false, time() );
+    wp_enqueue_script( 'jquery' );
+    wp_enqueue_script( 'jquery-ui-core' );
+    wp_enqueue_script( 'jquery-ui-touch-punch', get_template_directory_uri() . '/js/jquery-ui-touch-punch.min.js', '','',true);
+    wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', '','',true);
+    wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts.js', '','',true);
     wp_localize_script( 'loadmore', 'loadmore_params', array(
         'ajaxurl' => site_url() . '/wp-admin/admin-ajax.php', 
         'posts' => json_encode( $wp_query->query_vars ), 
@@ -66,8 +76,8 @@ function theme_name_scripts() {
 
 //подключаем стили к админке
 function load_custom_wp_admin_style() {
-        wp_register_style( 'custom_wp_admin_css', get_template_directory_uri() . '/css/admin-style.css', false, '1.0.0' );
-        wp_enqueue_style( 'custom_wp_admin_css' );
+    wp_register_style( 'custom_wp_admin_css', get_template_directory_uri() . '/css/admin-style.css', false, '1.0.0' );
+    wp_enqueue_style( 'custom_wp_admin_css' );
 }
 add_action( 'admin_enqueue_scripts', 'load_custom_wp_admin_style' );
 
@@ -95,21 +105,3 @@ function loadmore_ajax_handler(){
 
 add_action('wp_ajax_loadmore', 'loadmore_ajax_handler'); 
 add_action('wp_ajax_nopriv_loadmore', 'loadmore_ajax_handler'); 
-
-
-function add_theme_menu_item() {
-    add_menu_page("Theme Settings", "Theme Settings", "manage_options", "theme-settings", "theme_settings_page", null, 99);
-    //register our settings
-    register_setting( 'my-settings-group', 'facebook_link' );
-    register_setting( 'my-settings-group', 'twitter_link' );
-    register_setting( 'my-settings-group', 'google_link' );
-    register_setting( 'my-settings-group', 'pinterest_link' );
-    register_setting( 'my-settings-group', 'google_analytics' );
-    register_setting( 'my-settings-group', 'jivosite_code' );
-}
-
-add_action("admin_menu", "add_theme_menu_item");
-
-function theme_settings_page() {
-    include 'form-file.php';
-}
